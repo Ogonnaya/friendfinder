@@ -1,55 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Friend Finder</title>
+    <title>Friend Finder | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- Bootstrap & CSS Stylesheet -->
+
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+
+    <!-- Google Fonts -->
     <link
+      href="https://fonts.googleapis.com/css?family=Baloo|Roboto"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
 
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1 class="text-center">
-          <span class="fa fa-fire"></span> Friend Finder
-        </h1>
-        <hr />
-        <h2 class="text-center">
-          You've got a friend in me. You've got a friend in me. When the road
-          looks rough ahead, and you're miles and miles from your nice warm bed.
-          You just remember what your old pal said. Yeah, you've got a friend in
-          me.
-        </h2>
-        <br />
+  <body class="home-background">
+    <div class="container content">
+      <h1>Friend Finder</h1>
+      <p>
+        Welcome to the exclusive new Friend Finder based in Philly. We only
+        accept the best of the best, so losers need not apply! After our
+        state-of-the-art screening process, you will be paired with your new
+        best friend for life. Our algorithm will catch you if you are not up to
+        par, and will find your perfect match. Romantic or platonic? You decide!
+      </p>
 
-        <div class="text-center">
-          <p>
-            Take the survey to find your friend.
-          </p>
-          <a href="../public/survey.html"
-            ><button class="btn btn-lg btn-danger">
-              <span class="fa fa-credit-card"></span> Go to survey
-            </button></a
-          >
-        </div>
+      <div>
+        <a href="/survey"
+          ><button class="btn btn-lg btn-success">Take Survey</button></a
+        >
       </div>
-
-      <footer class="footer">
-        <div class="container">
-          <p>
-            <a href="/api/survey">API Friends List</a> |
-            <a href="https://github.com/Ogonnaya/friendfinder">Github Repo</a>
-          </p>
-        </div>
-      </footer>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <a href="/api/friends">API Friends List</a> <span>|</span>
+          <a target="_blank" href="https://github.com/Ogonnaya/friendfinder"
+            >Github Repo</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
