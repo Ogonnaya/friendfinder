@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .home-background {
@@ -26,8 +26,19 @@ body {
     flex: 1;
 }
 
+.card-header {
+    font-family: 'Arizonia', cursive;
+    font-size: 2em;
+}
+
+.card {
+
+    
+    opacity: 1;
+}
+
 h1 {
-    font-family: 'Baloo', cursive;
+    font-family: 'Arizonia', cursive;
     font-size: 4em;
     text-align: left;
     margin-top: 75px;
@@ -46,6 +57,9 @@ footer {
     text-align: center;
     padding: 30px;
     position: bottom;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .btn {
