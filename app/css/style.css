@@ -22,6 +22,24 @@ body {
     flex-direction: column;
 }
 
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: transparent;
+    border-radius: .25rem;
+    font-family: 'Arizonia', cursive;
+    color: gray;
+}
+
+a {
+    color: gray;
+}
+
 .content {
     flex: 1;
 }
@@ -33,7 +51,7 @@ body {
 
 .card {
 
-    
+
     opacity: 1;
 }
 
@@ -56,7 +74,10 @@ p {
 footer {
     text-align: center;
     padding: 30px;
-    position: bottom;
+
+}
+
+.survey-ftr {
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
